@@ -1,0 +1,17 @@
+
+---
+
+### ✅ Upload to GitHub Steps
+
+1. Create a new repository on [GitHub](https://github.com).
+2. On your PC, create a folder named `photo-gallery-surprise` and place your `index.html` and `README.md` files inside it.
+3. Open terminal/command prompt and run:
+
+```bash
+cd path/to/photo-gallery-surprise
+git init
+git add .
+git commit -m "Initial commit"
+git branch -M main
+git remote add origin https://github.com/yourusername/photo-gallery-surprise.git
+git push -u origin main
